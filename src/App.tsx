@@ -1,6 +1,5 @@
-import { AppRoutes } from "./routes";
-import { AppThemeProvider } from "./shared/contexts";
-
+import { AppRoutes } from './routes';
+import { AppThemeProvider } from './shared/contexts';
 
 export const App = () => {
   return (
@@ -8,4 +7,4 @@ export const App = () => {
       <AppRoutes />
     </AppThemeProvider>
   );
-}
+};
