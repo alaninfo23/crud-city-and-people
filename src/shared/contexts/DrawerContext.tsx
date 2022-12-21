@@ -1,9 +1,30 @@
-export { };
+import { createContext, useCallback, useContext, useState } from 'react';
 
-// interface IDrawerProviderProps {
-//   children: React.ReactNode
-// }
+interface IDrawerProviderProps {
+  children: React.ReactNode;
+}
+
+interface IDraweContextData {
+  isDrawerOpen: boolean;
+  toggleDrawerOpen: () => void;
+}
+
+const DrawerContext = createContext({} as IDraweContextData);
+
+export const useDrawerContext = () => {
+  return useContext(DrawerContext);
+};
+
+export const DrawerProvider: React.FC<IDrawerProviderProps> = ({ children }) => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const toggleDrawerOpen = useCallback(() => {
+    setIsDrawerOpen(oldDrawerOpen => !oldDrawerOpen);
+  }, []);
   
-// export const DrawerProvider: React.FC<IDrawerProviderProps> = ({ children }) => {
-    
-// }
+  return (
+    <DrawerContext.Provider value={{ isDrawerOpen, toggleDrawerOpen }}>
+      {children}
+    </DrawerContext.Provider>
+  );
+};
