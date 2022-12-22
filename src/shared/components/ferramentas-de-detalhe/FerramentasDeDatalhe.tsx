@@ -85,7 +85,7 @@ export const FerramentasDeDatalhe: React.FC<IFerramentasDeDatalheProps> = ({
           startIcon={<Icon>save</Icon>}
         >
           <Typography variant="button" whiteSpace="nowrap" textOverflow="ellipsis" overflow="hidden">
-            Salvar e voltar
+            Salvar e fechar
           </Typography>
         </Button>
       )}
