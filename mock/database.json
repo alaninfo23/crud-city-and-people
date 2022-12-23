@@ -1,5 +1,10 @@
 {
   "pessoas": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "email": "teste@gmail.com",
+      "cidadeId": 1,
+      "nomeCompleto": "André Lucas"
+    }
   ]
 }
