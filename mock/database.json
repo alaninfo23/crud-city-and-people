@@ -1,18 +1,6 @@
 {
   "pessoas": [
     {
-      "id": 1,
-      "email": "teste@gmail.com",
-      "cidadeId": 1,
-      "nomeCompleto": "André Lucas"
-    },
-    {
-      "id": 2,
-      "email": "maria@gmail.com",
-      "cidadeId": 1,
-      "nomeCompleto": "Maria Madalena"
-    },
-    {
       "id": 3,
       "email": "jose@gmail.com",
       "cidadeId": 1,
