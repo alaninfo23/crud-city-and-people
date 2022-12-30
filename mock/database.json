@@ -1,12 +1,6 @@
 {
   "pessoas": [
     {
-      "id": 4,
-      "email": "gabi@gmail.com",
-      "cidadeId": 1,
-      "nomeCompleto": "Gabrielle Jesus"
-    },
-    {
       "id": 5,
       "email": "camila@gmail.com",
       "cidadeId": 1,
