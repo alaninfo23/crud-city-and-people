@@ -26,9 +26,9 @@
     },
     {
       "id": 10,
+      "nomeCompleto": "Camila Lucas Silva",
       "email": "camila@gmail.com",
-      "cidadeId": 1,
-      "nomeCompleto": "Camila Lucas"
+      "cidadeId": 1
     },
     {
       "id": 12,
@@ -56,7 +56,7 @@
     },
     {
       "id": 16,
-      "nomeCompleto": "Leticia",
+      "nomeCompleto": "Leticia R",
       "email": "le@gmail.com",
       "cidadeId": "2"
     }
