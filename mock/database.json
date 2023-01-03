@@ -32,9 +32,9 @@
     },
     {
       "id": 12,
+      "nomeCompleto": "Maria Madalena",
       "email": "maria@gmail.com",
-      "cidadeId": 1,
-      "nomeCompleto": "Maria Madalena"
+      "cidadeId": 1
     },
     {
       "id": 13,
