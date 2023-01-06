@@ -34,17 +34,7 @@ Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e
   * Front-end
     * Boas práticas em desenvolver a arquitetura do projeto
     * Componentização em React
-    * Hooks:
-        <select>
-        <option>useState</option>
-        <option>useEffect</option>
-        <option>useMemo</option>
-        <option>useRef</option>
-        <option>useCallback</option>
-        <option>createContext</option>
-        <option>hooks customizados</option>
-        </select>
-
+    * Hooks: useState, useEffect, useMemo, useRef, useCallback, createContext, hooks customizados
     * Navegação pela página com `React Router Dom`
     * Themes - Dark mode
     * Material UI
