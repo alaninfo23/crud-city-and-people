@@ -1,17 +1,23 @@
 import { AppRoutes } from './routes';
-import { MenuLateral } from './shared/components';
-import { AppThemeProvider, DrawerProvider } from './shared/contexts';
+import { Login, MenuLateral } from './shared/components';
+import { AppThemeProvider, AuthProvider, DrawerProvider } from './shared/contexts';
 
 import './shared/forms/TraducoesYup';
 
 export const App = () => {
   return (
-    <AppThemeProvider>
-      <DrawerProvider>
-        <MenuLateral>
-          <AppRoutes />
-        </MenuLateral>
-      </DrawerProvider>
-    </AppThemeProvider>
+    <AuthProvider>
+      <AppThemeProvider>
+
+        <Login>
+          <DrawerProvider>
+            <MenuLateral>
+              <AppRoutes />
+            </MenuLateral>
+          </DrawerProvider>
+        </Login>
+
+      </AppThemeProvider>
+    </AuthProvider>
   );
 };
