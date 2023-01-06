@@ -19,17 +19,14 @@ Abra seu terminal do Desktop e execute os passos abaixo:
    * Back-end: `npm run mock`
 * obs: Para rodar o projeto, use um terminal para cada comando mostrado acima.
 
-#
 ## O que foi desenvolvimento
 
 Esse projeto foi desenvolvido em `React` com `TypeScript` e `Material UI` como biblioteca de estilização.
 
 Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e cidades. Onde é possível criar um novo cadastro de de usuario e poderá ser feita a atualização dos dados do mesmo e até mesmo deletar seus dados. Abaixo há um exemplo da aplicação rodando.
 
-#
-
 ![exemplo](./src/app.gif)
-#
+
 ## Habilidades usadas e aprendidas nesse projeto:
   * Front-end
     * Boas práticas em desenvolver a arquitetura do projeto
