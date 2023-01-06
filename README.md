@@ -27,7 +27,7 @@ Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e
 
 ![exemplo](./src/app.gif)
 
-## Habilidades usadas e aprendidas nesse projeto:
+## Tecnologias utilizadas e aprendidas nesse projeto:
   * Front-end
     * Boas práticas em desenvolver a arquitetura do projeto
     * Componentização em React
