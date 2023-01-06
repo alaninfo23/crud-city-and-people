@@ -50,7 +50,7 @@ export const MenuLateral: React.FC<IMenuLateralProps> = ({ children }) => {
           <Box width="100%" height={theme.spacing(20)} display="flex" alignItems="center" justifyContent="center">
             <Avatar
               sx={{ height: theme.spacing(12), width: theme.spacing(12) }}
-              src="https://avatars.githubusercontent.com/u/66281231?v=4" />
+              src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=740&t=st=1673032290~exp=1673032890~hmac=13a214d8e264c5f66cbe42e31ee1828c9da68bff74ce19f75dd1ad63767fb86e" />
           </Box>
 
           <Divider />

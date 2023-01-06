@@ -4,7 +4,7 @@
       "id": 5,
       "nomeCompleto": "Camila Lucas",
       "email": "camila@gmail.com",
-      "cidadeId": 2
+      "cidadeId": 4
     },
     {
       "id": 6,
@@ -65,6 +65,18 @@
       "email": "stefany@gmail.com",
       "cidadeId": 3,
       "id": 17
+    },
+    {
+      "id": 18,
+      "nomeCompleto": "Jose roberto",
+      "email": "jose@gmail.com",
+      "cidadeId": 3
+    },
+    {
+      "nomeCompleto": "Maria",
+      "email": "teste3@gmail.com",
+      "cidadeId": 4,
+      "id": 19
     }
   ],
   "cidades": [
@@ -87,10 +99,6 @@
     {
       "nome": "Curitiba",
       "id": 5
-    },
-    {
-      "nome": "Tramandaí",
-      "id": 6
     }
   ],
   "auth": {
