@@ -48,7 +48,7 @@ export const Dashboard = () => {
       <Box width='100%' display='flex'>
         <Grid container margin={2}>
           <Grid item container spacing={2}>
-            <Grid item xs={12} sm={12} md={6} lg={4} xl={3}>
+            <Grid item xs={12} sm={12} md={6} lg={6} xl={3}>
               <Card>
                 <CardContent>
                   <Typography variant='h5' align='center'>
@@ -74,7 +74,7 @@ export const Dashboard = () => {
               </Card>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={6} lg={4} xl={3}>
+            <Grid item xs={12} sm={12} md={6} lg={6} xl={3}>
               <Card>
                 <CardContent>
                   <Typography variant='h5' align='center'>

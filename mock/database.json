@@ -92,5 +92,8 @@
       "nome": "Tramandaí",
       "id": 6
     }
-  ]
+  ],
+  "auth": {
+    "accessToken": "aaaaaaaaa.bbbbbbbbb.cccccc"
+  }
 }
