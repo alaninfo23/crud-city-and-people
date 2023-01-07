@@ -23,7 +23,7 @@ Abra seu terminal do Desktop e execute os passos abaixo:
 
 Esse projeto foi desenvolvido em `React` com `TypeScript` e `Material UI` como biblioteca de estilização.
 
-Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e cidades. Onde é possível criar um novo cadastro de de usuario e poderá ser feita a atualização dos dados do mesmo e até mesmo deletar seus dados. Abaixo há um exemplo da aplicação rodando.
+Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e cidades. Onde é possível criar um novo cadastro de usuario e poderá ser feita a atualização dos dados do mesmo e até mesmo deletar seus dados. Abaixo há um exemplo da aplicação rodando.
 
 ![exemplo](./src/app.gif)
 
@@ -32,6 +32,7 @@ Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e
     * Boas práticas em desenvolver a arquitetura do projeto
     * Componentização em React
     * Hooks: `useState`, `useEffect`, `useMemo`, `useRef`, `useCallback`, `createContext`, `hooks customizados`
+    * Criação de formulários através da API do <a href="https://github.com/unform/unform" target="_blank">unform</a>
     * Navegação pela página com `React Router Dom`
     * Themes - Dark mode
     * Material UI
@@ -39,4 +40,3 @@ Através desta aplicação, você poderá criar um CRUD de cadastros de pessoa e
     * Validação com o `yup`
     * Requisições através do `axios`
     * Mock de simulação de dados com `JSON Server`
-    * Criação de formulários através da API do <a href="https://github.com/unform/unform" target="_blank">unform</a>
