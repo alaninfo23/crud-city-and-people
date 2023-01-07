@@ -19,7 +19,7 @@ Abra seu terminal do Desktop e execute os passos abaixo:
    * Back-end: `npm run mock`
 * obs: Para rodar o projeto, use um terminal para cada comando mostrado acima.
 
-## O que foi desenvolvimento
+## O que foi desenvolvido
 
 Esse projeto foi desenvolvido em `React` com `TypeScript` e `Material UI` como biblioteca de estilização.
 
